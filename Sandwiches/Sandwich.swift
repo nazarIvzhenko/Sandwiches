@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Sandwich {
+struct Sandwich: Identifiable {
     var id = UUID()
     var name: String
     var ingredientCount: Int

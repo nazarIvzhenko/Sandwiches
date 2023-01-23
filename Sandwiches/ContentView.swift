@@ -8,19 +8,53 @@
 import SwiftUI
 
 struct ContentView: View {
+    var sandwiches: [Sandwich] = []
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                ForEach(sandwiches) { sandwich in
+                    SandwichCell(sandwich: sandwich)
+                }
+                
+                HStack {
+                    Spacer()
+                    Text("\(sandwiches.count) sandwiches")
+                        .foregroundColor(.secondary)
+                    Spacer()
+                }
+                .alignmentGuide(.listRowSeparatorLeading) { viewDimensions in
+                    return 0
+                }
+            }
+            .listStyle(.plain)
+            .navigationTitle("Sandwiches")
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(sandwiches: testData)
+    }
+}
+
+struct SandwichCell: View {
+    var sandwich: Sandwich
+    
+    var body: some View {
+        NavigationLink(destination: Text(sandwich.name)) {
+            HStack {
+                Image(sandwich.thumbnailName)
+                    .cornerRadius(8)
+                
+                VStack(alignment: .leading) {
+                    Text(sandwich.name)
+                    Text("\(sandwich.ingredientCount) ingredients")
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                }
+            }
+        }
     }
 }
