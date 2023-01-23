@@ -43,7 +43,7 @@ struct SandwichCell: View {
     var sandwich: Sandwich
     
     var body: some View {
-        NavigationLink(destination: Text(sandwich.name)) {
+        NavigationLink(destination: SandwichDetail(sandwich: sandwich)) {
             HStack {
                 Image(sandwich.thumbnailName)
                     .cornerRadius(8)

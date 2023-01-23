@@ -13,6 +13,7 @@
 		B3778BA1297EC3D0000AC42F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3778BA0297EC3D0000AC42F /* Preview Assets.xcassets */; };
 		B3778BA9297EC8DA000AC42F /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3778BA7297EC8DA000AC42F /* Sandwiches.xcassets */; };
 		B3778BAA297EC8DA000AC42F /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3778BA8297EC8DA000AC42F /* Sandwich.swift */; };
+		B3778BAC297EE1E1000AC42F /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3778BAB297EE1E1000AC42F /* SandwichDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B3778BA0297EC3D0000AC42F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3778BA7297EC8DA000AC42F /* Sandwiches.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sandwiches.xcassets; sourceTree = "<group>"; };
 		B3778BA8297EC8DA000AC42F /* Sandwich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		B3778BAB297EE1E1000AC42F /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				B3778B99297EC3CE000AC42F /* SandwichesApp.swift */,
 				B3778B9B297EC3CE000AC42F /* ContentView.swift */,
+				B3778BAB297EE1E1000AC42F /* SandwichDetail.swift */,
 				B3778BA8297EC8DA000AC42F /* Sandwich.swift */,
 				B3778BA7297EC8DA000AC42F /* Sandwiches.xcassets */,
 				B3778B9D297EC3D0000AC42F /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				B3778B9C297EC3CE000AC42F /* ContentView.swift in Sources */,
 				B3778B9A297EC3CE000AC42F /* SandwichesApp.swift in Sources */,
 				B3778BAA297EC8DA000AC42F /* Sandwich.swift in Sources */,
+				B3778BAC297EE1E1000AC42F /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
