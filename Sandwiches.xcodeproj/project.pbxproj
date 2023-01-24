@@ -14,6 +14,7 @@
 		B3778BA9297EC8DA000AC42F /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3778BA7297EC8DA000AC42F /* Sandwiches.xcassets */; };
 		B3778BAA297EC8DA000AC42F /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3778BA8297EC8DA000AC42F /* Sandwich.swift */; };
 		B3778BAC297EE1E1000AC42F /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3778BAB297EE1E1000AC42F /* SandwichDetail.swift */; };
+		B3778BAF297EFA00000AC42F /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3778BAE297EFA00000AC42F /* SandwichStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B3778BA7297EC8DA000AC42F /* Sandwiches.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sandwiches.xcassets; sourceTree = "<group>"; };
 		B3778BA8297EC8DA000AC42F /* Sandwich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
 		B3778BAB297EE1E1000AC42F /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
+		B3778BAE297EFA00000AC42F /* SandwichStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B3778B9B297EC3CE000AC42F /* ContentView.swift */,
 				B3778BAB297EE1E1000AC42F /* SandwichDetail.swift */,
 				B3778BA8297EC8DA000AC42F /* Sandwich.swift */,
+				B3778BAE297EFA00000AC42F /* SandwichStore.swift */,
 				B3778BA7297EC8DA000AC42F /* Sandwiches.xcassets */,
 				B3778B9D297EC3D0000AC42F /* Assets.xcassets */,
 				B3778B9F297EC3D0000AC42F /* Preview Content */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3778BAF297EFA00000AC42F /* SandwichStore.swift in Sources */,
 				B3778B9C297EC3CE000AC42F /* ContentView.swift in Sources */,
 				B3778B9A297EC3CE000AC42F /* SandwichesApp.swift in Sources */,
 				B3778BAA297EC8DA000AC42F /* Sandwich.swift in Sources */,
